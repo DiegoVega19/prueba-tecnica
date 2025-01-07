@@ -38,20 +38,28 @@ Este proyecto fue creado con [Vite](https://vitejs.dev), una herramienta de desa
 
 ## Observaciones
 
-No fue necesario usar redux-toolkit para manejar todo el contexto, debido a que con react-query se simplifica el proceso para manejar la obtencion de los datos, sin embargo, se implemento en el proyecto  para futuras implementaciones, haciendo uso de features  / casos de uso, cada casa de uso se divide en un slice como por ejemplo el que se uso para manejar el valor del country seleccionado.
+No fue necesario usar redux-toolkit para manejar el contexto de los datos obtenidos por la api debido a que con react-query se simplifica el proceso para manejar la obtencion de los datos, sin embargo, se implemento en el proyecto  para futuras implementaciones, haciendo uso de features  / casos de uso, cada casa de uso se divide en un slice como por ejemplo el que se uso para manejar el valor del country seleccionado.
 
+Algunas carpetas quedaron vacias debido al alcance del proyecto, igual se dejaron para mostrar como seria implementar la arquitectura en un escenario real.
+
+Se integro un test de ejemplo haciendo uso de playwright
+
+## Requrimientos 🛠️
+
+El proyecto fue creado haciendo uso de nodejs 20.15.1
 
 ## 🚀 Cómo usarlo
 
 1. **Clona este repositorio**:
    ```bash
-   git clone https://github.com/usuario/proyecto-vite.git
-   cd proyecto-vite
+   git clone https://github.com/DiegoVega19/prueba-tecnica
+   cd prueba-tecnica
+
 
 
 2. **Copia Variables**:
    ```bash
-   abre el archivo .env.example y crea un archivo .env pega la variable VITE_API_BASE_URL
+   abre el archivo .env.example y crea un archivo .env en la raiz del proyecto pega la variable VITE_API_BASE_URL la cual contiene la url de la api
 
 3. **Ejecuta el proyecto**:
    ```bash
@@ -61,3 +69,14 @@ No fue necesario usar redux-toolkit para manejar todo el contexto, debido a que 
 3. **Opcional (Ejecuta Tests E2E)**:
    ```bash
     npm run dev
+    npx playwright test
+
+##  **Demo en vivo 🚀🚀🚀**:
+
+   ```
+   Si deseas acceder a un demo en vivo de la prueba puedes visitar:
+   
+   https://prueba-tecnica-gr7xpdxuh-diegovega19s-projects.vercel.app/
+   ```
+
+   [Demo en vivo 🚀](https://prueba-tecnica-gr7xpdxuh-diegovega19s-projects.vercel.app/)
