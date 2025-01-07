@@ -1,5 +1,8 @@
 # 🚀 Prueba Técnica: Desarrollo de Aplicación con React y TanStack Query
  🌟
+ 
+ ![demo](https://github.com/user-attachments/assets/4e4f1454-691f-4094-999f-6f5f0b87d311)
+
 
 Este proyecto fue creado con [Vite](https://vitejs.dev), una herramienta de desarrollo moderna y súper rápida para aplicaciones de react. ⚡
 
